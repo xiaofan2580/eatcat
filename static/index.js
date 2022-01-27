@@ -262,7 +262,7 @@ function refreshGameLayer(box, loop, offset) {
     else {
         i = parseInt(key[last]) - 1;
     }
-    lkey = i;
+    lkey = i;88
     i += (loop ? 0 : __k);
     last++;
     if (last == len) {
@@ -478,7 +478,7 @@ function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
     if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
-    if (score <= 5 * __Time) return '^_^ 加把劲，底力大王就是您！';
+    if (score <= 5 * __Time) return '冲冲冲！';
     if (score <= 7.5 * __Time) return '您！';
     if (score <= 10 * __Time) return '太 您 了！';
     return '您是外星人嘛？';
