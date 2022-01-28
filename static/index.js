@@ -579,7 +579,7 @@ function save_cookie() {
     map[str.charAt(3).toLowerCase()] = 4;
     __Time = parseInt(Time);
     GameTimeLayer.innerHTML = creatTimeText(__Time);
-    key = note.split('');
+    key = note.split('');”7
     console.log(key);
     gl();
     cookie('keyboard', str, 100);
