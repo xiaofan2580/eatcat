@@ -477,9 +477,9 @@ function backBtn() {
 function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
-    if (score <= 5 * __Time) return '冲冲冲！';
-    if (score <= 7.5 * __Time) return '您！';
+    if (score <= 2.5 * __Time) return '这边奥，我是谁不重要奥';
+    if (score <= 5 * __Time) return '建议不要问是谁做的奥';
+    if (score <= 7.5 * __Time) return '知道的人也不要乱说是我做的奥';
     if (score <= 10 * __Time) return '太 您 了！';
     return '您是外星人嘛？';
 }
